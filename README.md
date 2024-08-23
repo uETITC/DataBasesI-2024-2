@@ -1,6 +1,11 @@
 # Data Bases I 
 
 ---
+## Lessons
+
+[1. History of DataBases](./Lessons/1.%20DB-History.pdf)
+
+[2. Introducción BD: SGBD y tipos.](./Lessons/2.%20DB-intro.pdf)
 
 ## Objective
 
