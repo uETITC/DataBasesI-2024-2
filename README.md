@@ -9,6 +9,8 @@
 
 [3. Database Architecture ](./Lessons/3.%20DB-Arquitecture.pdf)
 
+[4. Introduction to MySQL](./Lessons/4.%20MySQL_Engines.md)
+
 ## Objective
 
 Provide students with a solid understanding of the fundamental concepts of databases, including their modeling, querying, and use in information systems. Students will learn how to apply this knowledge to design and develop information systems that respond to specific requirements, using relational databases in a transactional multi-user environment.
@@ -65,7 +67,7 @@ The project is divide in two grades: first report (20 %) and last (80 %) assignm
 >
 >Each solved problem, which has passed all the tests created for the page, can be exchanged for points. Very simple problems are not valid.
 
-## Project Ideas
+## Projects
 
 - Database for [birdsongs](https://github.com/animalsongs/birds)
 - ETITC Parking (bykes, cars, and motorbikes)
@@ -89,7 +91,11 @@ The project is divide in two grades: first report (20 %) and last (80 %) assignm
   - Carlos Alberto mojica 
   - Brayan Chacón 
   - Michael Andres orjuela 
-
+- Fish Business 
+  - Kevin Ricardo Díaz Sandoval 
+  - Darwin Esteban Escobar Arias 
+  - Juan Diego Daza Beltrán 
+  - Eliezer Alejandro Rojas Beltrán
 # References:
 
 ## Books
