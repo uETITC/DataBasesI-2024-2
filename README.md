@@ -11,6 +11,8 @@
 
 [4. Introduction to MySQL](./Lessons/4.%20MySQL_Engines.md)
 
+[5. Relational Data Bases](./Lessons/5.%20RelationalDB.md)
+
 ## Objective
 
 Provide students with a solid understanding of the fundamental concepts of databases, including their modeling, querying, and use in information systems. Students will learn how to apply this knowledge to design and develop information systems that respond to specific requirements, using relational databases in a transactional multi-user environment.
