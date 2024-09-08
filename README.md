@@ -1,7 +1,10 @@
 # Data Bases I 
 
 ---
+
 ## Lessons
+
+[Project Guidelines](./Lessons/ProjectGuideLines.md)
 
 [1. History of DataBases](./Lessons/1.%20DB-History.pdf)
 
@@ -17,7 +20,7 @@
 
 Provide students with a solid understanding of the fundamental concepts of databases, including their modeling, querying, and use in information systems. Students will learn how to apply this knowledge to design and develop information systems that respond to specific requirements, using relational databases in a transactional multi-user environment.
 
-#### Subject Learning Results (RAC)
+## Subject Learning Results (RAC)
 
 At the end of the course the student will be able to:
 
@@ -29,7 +32,6 @@ At the end of the course the student will be able to:
 
 These learning outcomes ensure that students have the technical and analytical skills necessary to manage databases in real-world applications and develop software solutions that effectively utilize databases.
 
-   
 ## Grades
 
 <table>
@@ -71,7 +73,6 @@ The project is divide in two grades: first report (20 %) and last (80 %) assignm
 
 ## Projects
 
-- Database for [birdsongs](https://github.com/animalsongs/birds)
 - ETITC Parking (bykes, cars, and motorbikes)
   - Isaac Pachón Lugo 
   - Luis Ángel Duran Serrano 
@@ -98,7 +99,8 @@ The project is divide in two grades: first report (20 %) and last (80 %) assignm
   - Darwin Esteban Escobar Arias 
   - Juan Diego Daza Beltrán 
   - Eliezer Alejandro Rojas Beltrán
-# References:
+
+## References:
 
 ## Books
 
