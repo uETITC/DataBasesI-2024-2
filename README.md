@@ -16,6 +16,11 @@
 
 [5. Relational Data Bases](./Lessons/5.%20RelationalDB.md)
 
+## Exams
+
+[First Exam](./Lessons/Exams/First/) - solution
+
+
 ## Objective
 
 Provide students with a solid understanding of the fundamental concepts of databases, including their modeling, querying, and use in information systems. Students will learn how to apply this knowledge to design and develop information systems that respond to specific requirements, using relational databases in a transactional multi-user environment.
@@ -31,6 +36,8 @@ At the end of the course the student will be able to:
 **RAC 3:** Develop and execute database queries using SQL, interacting effectively with database management systems.
 
 These learning outcomes ensure that students have the technical and analytical skills necessary to manage databases in real-world applications and develop software solutions that effectively utilize databases.
+
+
 
 ## Grades
 
