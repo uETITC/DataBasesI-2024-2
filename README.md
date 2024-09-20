@@ -16,6 +16,10 @@
 
 [5. Relational Data Bases](./Lessons/5.%20RelationalDB.md)
 
+[6. Relational Algebra](./Lessons/6.%20RelationalAlgebra.md)
+
+[7. Normalization](./Lessons/7.%20Normalization.md)
+
 ## Exams
 
 [First Exam](./Lessons/Exams/First/) - solution
@@ -109,11 +113,11 @@ The project is divide in two grades: first report (20 %) and last (80 %) assignm
 
 ## References:
 
-## Books
+### Books
 
 - *The MySQL Workshop: A practical guide to working with data and managing databases with MySQL.* Thomas Pettit, Scott Cosentino. First edition (2022), Packt Publishing.
 
-## Repositories 
+### Repositories 
 
 - [The-MySQL-Workshop](https://github.com/PacktWorkshops/The-MySQL-Workshop/)
 - [SQL-101](https://github.com/s-shemmee/SQL-101)
