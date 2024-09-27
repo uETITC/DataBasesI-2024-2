@@ -20,6 +20,8 @@
 
 [7. Normalization](./Lessons/7.%20Normalization.md)
 
+[8. DB Languages](./Lessons/8.%20DBLanguages.md)
+
 ## Exams
 
 [First Exam](./Lessons/Exams/First/) - solution
