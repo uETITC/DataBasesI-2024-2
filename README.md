@@ -86,7 +86,7 @@ The project is divide in two grades: first report (20 %) and last (80 %) assignm
 
 ## Projects
 
-- ETITC Parking (bykes, cars, and motorbikes)
+- [ETITC Parking (bykes, cars, and motorbikes)](https://github.com/ipachonl/Parqueadero-ETITC/tree/main)
   - Isaac Pachón Lugo 
   - Luis Ángel Duran Serrano 
   - Stiven Jherbey Palacio Escobar 
@@ -97,17 +97,17 @@ The project is divide in two grades: first report (20 %) and last (80 %) assignm
   - Daniel Torres
   - Diego Burgos
   - Kevin Ochoa
-- ETITC workers attendence
+- [ETITC workers attendence](https://github.com/CristianFvp/ETITC-workers-attendence)
   - Yeison Andrés Ruano Viuche
   - Ana Sofia Cobaleda Rodríguez 
   - Cristian Felipe Vargas Perez 
   - Jonh Bayter Jiménez.
-- Anti-theft security ETITC
-  - Juan diego rivera silva 
-  - Carlos Alberto mojica 
+- [Anti-theft security ETITC](https://github.com/jdriverasilva/Seguridad-Antirrobo-Universidad-Publica-Kennedy-)
+  - Juan Diego Rivera Silva 
+  - Carlos Alberto Mojica 
   - Brayan Chacón 
   - Michael Andres orjuela 
-- Fish Business 
+- [Fish Business ](https://github.com/KevinD008/AdministracionPescaderia.git)
   - Kevin Ricardo Díaz Sandoval 
   - Darwin Esteban Escobar Arias 
   - Juan Diego Daza Beltrán 
