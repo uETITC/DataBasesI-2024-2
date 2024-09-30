@@ -43,8 +43,6 @@ At the end of the course the student will be able to:
 
 These learning outcomes ensure that students have the technical and analytical skills necessary to manage databases in real-world applications and develop software solutions that effectively utilize databases.
 
-
-
 ## Grades
 
 <table>
