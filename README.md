@@ -22,6 +22,7 @@
 
 [8. DB Languages](./Lessons/8.%20DBLanguages.md)
 
+[9. E/R Model](./Lessons/9.%20ER_Model.md)
 ## Exams
 
 [First Exam](./Lessons/Exams/First/) - solution
