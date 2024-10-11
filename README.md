@@ -23,6 +23,11 @@
 [8. DB Languages](./Lessons/8.%20DBLanguages.md)
 
 [9. E/R Model](./Lessons/9.%20ER_Model.md)
+
+[10. TransactSQL](./Lessons/10.%20TransactSQL.md)
+
+[11. RelationalDB Workshop](./Lessons/11.%20RelationalDB_Workshop.md)
+
 ## Exams
 
 [First Exam](./Lessons/Exams/First/) - solution
