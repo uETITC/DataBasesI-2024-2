@@ -28,6 +28,8 @@
 
 [11. RelationalDB Workshop](./Lessons/11.%20RelationalDB_Workshop.md)
 
+[12. Simple Queries](./Lessons/12.%20SimpleQueries.md)
+
 ## Exams
 
 [First Exam](./Lessons/Exams/First/) - solution
