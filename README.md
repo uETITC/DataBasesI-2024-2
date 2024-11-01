@@ -32,7 +32,13 @@
 
 ## Exams
 
-[First Exam](./Lessons/Exams/First/) - solution
+First: [v1](./Lessons/Exams/First/FirstExam.md) - solution
+
+Second: 
+
+- [v1](./Lessons/Exams/Second/v1/) - solution
+- [v2](./Lessons/Exams/Second/v2/) - solution
+- [v3](./Lessons/Exams/Second/v3/) - solution
 
 
 ## Objective
