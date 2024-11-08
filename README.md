@@ -30,6 +30,8 @@
 
 [12. Simple Queries](./Lessons/12.%20SimpleQueries.md)
 
+[13. Medium Querues](./Lessons/13.%20MediumQueries.md)
+
 ## Exams
 
 First: [v1](./Lessons/Exams/First/FirstExam.md) - solution
