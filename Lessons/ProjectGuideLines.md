@@ -62,6 +62,9 @@
    - **Fase 4: Implementación Física en un SGBD**
      - **Objetivo**: Implementar el diseño lógico en un SGBD (por ejemplo, MySQL o PostgreSQL). Crear las tablas, relaciones y restricciones correspondientes.
      - **Entregable**: Script SQL para la creación de las tablas y las relaciones.
+  
+  >[!NOTE]
+>Hasta aquí va la segunda entrega. Recuerden que el reporte debe estar en el repositorio del proyecto y TODOS deben participar activamente. Esta entrega consta de las tablas normalizadas y subidas a Workbrench, al igual que los diagramas ER y EER.
 
    - **Fase 5: Creación de Consultas SQL y Procedimientos Almacenados**
      - **Objetivo**: Desarrollar consultas SQL que cubran operaciones de creación, actualización, eliminación y recuperación de datos. Implementar al menos un procedimiento almacenado, función o trigger.
