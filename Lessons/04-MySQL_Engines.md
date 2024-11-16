@@ -131,7 +131,7 @@ Al concluir esta clase, los estudiantes comprenderán cómo usar eficazmente tan
 
 Dominar ambas herramientas permite adaptarse a diversas situaciones, optimizando la eficiencia en la administración de datos. La práctica de buenas técnicas y la evitación de errores comunes preparan a los estudiantes para enfrentar desafíos reales, asegurando la integridad de sus proyectos.
 
-## Referencias
+## Recursos Adicionales
 
 Aquí tienes algunos enlaces útiles para aprender más sobre MySQL, tanto para la CLI como para MySQL Workbench:
 
@@ -153,7 +153,7 @@ Aquí tienes algunos enlaces útiles para aprender más sobre MySQL, tanto para 
    - [How to Use MySQL Workbench](https://www.hostinger.com/tutorials/how-to-use-mysql-workbench): Tutorial paso a paso sobre cómo usar MySQL Workbench.
    - [DataCamp: MySQL Workbench](https://www.datacamp.com/tutorial/mysql-workbench-tutorial): Guía completa sobre las funciones de MySQL Workbench.
 
-### Recursos Adicionales
+### Cursos y Blogs
 - **Stack Overflow**: [Preguntas sobre MySQL](https://stackoverflow.com/questions/tagged/mysql): Busca respuestas a preguntas específicas sobre MySQL.
 - **YouTube**: [Curso de MySQL Workbench](https://www.youtube.com/watch?v=DCgRF4KOYKw): Video tutorial sobre el uso de MySQL Workbench.
 - [Introduction To MySQL | MySQL Workbench Tutorial | MySQL Basics For Beginners | Simplilearn](https://www.youtube.com/watch?v=fUK94jOFwBc)
