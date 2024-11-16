@@ -5,7 +5,7 @@
 title                       : Bases de Datos I  # The title of the book. Will be placed in the left navbar.
 author                      : Sebastian Aguilera Novoa  # The author of the book
 copyright                   : "2024"  # Copyright year to be placed in the footer
-logo                        : "https://datasciencedojo.com/wp-content/uploads/Understanding-databases.jpg"  # A path to the book logo
+logo                        : "https://media.licdn.com/dms/image/D5612AQGx3op56ho51A/article-cover_image-shrink_720_1280/0/1700645546633?e=2147483647&v=beta&t=XQEf8gq7qYaLiAy72J6CgCQCm_9_T2KWqapm1QFhf-M"  # A path to the book logo
 email: saguileran@itc.edu.co
 # Patterns to skip when building the book. Can be glob-style (e.g. "*skip.ipynb")
 exclude_patterns            : [References, _build, Thumbs.db, .DS_Store, "**.ipynb_checkpoints"]
