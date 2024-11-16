@@ -1,0 +1,45 @@
+# Table of contents
+# Learn more at https://jupyterbook.org/customize/toc.html
+
+format: jb-book
+root: README
+title: "Bases de Datos I"
+
+parts:
+  - caption: "Introducción"
+    numbered: false
+    chapters:
+    - file: Lessons/01-DB-History.md
+    - file: Lessons/02-DB-intro.md
+    - file: Lessons/03-DB-Arquitecture.md
+  - caption: "Bases de Datos Relacionales"
+    chapters:
+    - file: Lessons/05-RelationalDB.md
+    - file: Lessons/06-RelationalAlgebra.md
+  - caption: "Normalización"
+    chapters:
+    - file: Lessons/07-Normalization.md
+  - caption: "Diagramas Relacionales"
+    chapters:
+    - file: Lessons/09-ER_Model.md
+  - caption: "Programación en MySQL"
+    chapters:
+    - file: Lessons/04-MySQL_Engines.md 
+    - file: Lessons/08-DBLanguages.md
+    - file: Lessons/11-RelationalDB_Workshop.md
+    - file: Lessons/10-TransactSQL.md
+  - caption: "Consultas"
+    chapters:
+    - file: Lessons/12-SimpleQueries.md
+    - file: Lessons/13-MediumQueries.md
+  - caption: "Proyecto"
+    chapters:
+    - file: Lessons/ProjectGuideLines.md
+  - caption: "Exámenes" 
+    chapters:
+    - file: Lessons/Exams/First/First.md
+    - file: Lessons/Exams/Second/Second.md
+      sections:
+        - file: Lessons/Exams/Second/v1.md
+        - file: Lessons/Exams/Second/v2.md
+        - file: Lessons/Exams/Second/v3.md

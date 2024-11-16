@@ -1,20 +1,8 @@
-# Guía para la Realización del Proyecto
+# Guía
 
----
-
-- [Guía para la Realización del Proyecto](#guía-para-la-realización-del-proyecto)
-  - [1. Objetivo del Proyecto](#1-objetivo-del-proyecto)
-  - [2. Descripción del Proyecto](#2-descripción-del-proyecto)
-  - [3. Requisitos Funcionales](#3-requisitos-funcionales)
-  - [4. Fases del Proyecto](#4-fases-del-proyecto)
-  - [5. Criterios de Evaluación](#5-criterios-de-evaluación)
-  - [6. Recursos](#6-recursos)
-  - [7. Entregables](#7-entregables)
-  - [8. Fechas Importantes](#8-fechas-importantes)
-  - [9. Consideraciones Finales](#9-consideraciones-finales)
-  - [10. Recomendaciones](#10-recomendaciones)
-
----
+:::{warning}
+El proyecto debe estar en [GitHub](https://www.github.com) y todos deben participar activamente.
+:::
 
 ## 1. Objetivo del Proyecto
    Desarrollar una base de datos relacional completa que gestione la información de un sistema del mundo real, aplicando los conceptos fundamentales de diseño de bases de datos, normalización, consultas SQL y administración. El proyecto debe ser realizado en equipos de máximo 4 personas.
@@ -48,8 +36,9 @@
      - Posible división de tareas entre los miembros del equipo.
      - Algunas referencias de interés.
   
->[!NOTE]
->Hasta aquí va la primera entrega. Recuerden que el reporte debe estar en el repositorio del proyecto y TODOS deben participar activamente.
+:::{note}
+Hasta aquí va la primera entrega. Recuerden que el reporte debe estar en el repositorio del proyecto y TODOS deben participar activamente.
+:::
 
    - **Fase 2: Análisis del Sistema y Modelado Conceptual**
      - **Objetivo**: Analizar el problema propuesto, identificar las entidades, relaciones y atributos. Entregar un modelo Entidad-Relación (ER).
@@ -63,8 +52,9 @@
      - **Objetivo**: Implementar el diseño lógico en un SGBD (por ejemplo, MySQL o PostgreSQL). Crear las tablas, relaciones y restricciones correspondientes.
      - **Entregable**: Script SQL para la creación de las tablas y las relaciones.
   
-  >[!NOTE]
->Hasta aquí va la segunda entrega. Recuerden que el reporte debe estar en el repositorio del proyecto y TODOS deben participar activamente. Esta entrega consta de las tablas normalizadas y subidas a Workbrench, al igual que los diagramas ER y EER.
+:::{note}
+Hasta aquí va la segunda entrega. Recuerden que el reporte debe estar en el repositorio del proyecto y TODOS deben participar activamente. Esta entrega consta de las tablas normalizadas y subidas a Workbrench, al igual que los diagramas ER y EER.
+:::
 
    - **Fase 5: Creación de Consultas SQL y Procedimientos Almacenados**
      - **Objetivo**: Desarrollar consultas SQL que cubran operaciones de creación, actualización, eliminación y recuperación de datos. Implementar al menos un procedimiento almacenado, función o trigger.

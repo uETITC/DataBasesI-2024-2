@@ -1,0 +1,115 @@
+# Book settings
+# Learn more at https://jupyterbook.org/customize/config.html
+#######################################################################################
+# Book settings
+title                       : Bases de Datos I  # The title of the book. Will be placed in the left navbar.
+author                      : Sebastian Aguilera Novoa  # The author of the book
+copyright                   : "2024"  # Copyright year to be placed in the footer
+logo                        : "https://datasciencedojo.com/wp-content/uploads/Understanding-databases.jpg"  # A path to the book logo
+email: saguileran@itc.edu.co
+# Patterns to skip when building the book. Can be glob-style (e.g. "*skip.ipynb")
+exclude_patterns            : [References, _build, Thumbs.db, .DS_Store, "**.ipynb_checkpoints"]
+# Auto-exclude files not in the toc
+only_build_toc_files        : false
+
+# Force re-execution of notebooks on each build.
+# See https://jupyterbook.org/content/execute.html
+#######################################################################################
+# Execution settings
+execute:
+  execute_notebooks         : auto  # Whether to execute notebooks at build time. Must be one of ("auto", "force", "cache", "off")
+  cache                     : ""    # A path to the jupyter cache that will be used to store execution artifacts. Defaults to `_build/.jupyter_cache/`
+  exclude_patterns          : []    # A list of patterns to *skip* in execution (e.g. a notebook that takes a really long time)
+  timeout                   : 30    # The maximum time (in seconds) each notebook cell is allowed to run.
+  run_in_temp               : false # If `True`, then a temporary directory will be created and used as the command working directory (cwd),
+                                    # otherwise the notebook's parent directory will be the cwd.
+  allow_errors              : false # If `False`, when a code cell raises an error the execution is stopped, otherwise all cells are always run.
+  stderr_output             : show  # One of 'show', 'remove', 'remove-warn', 'warn', 'error', 'severe'
+
+only_build_toc_files: true
+# Define the name of the latex output file for PDF builds
+latex:
+  latex_documents:
+    targetname: book.tex
+
+
+# Add a bibtex file so that we can create citations
+bibtex_bibfiles:
+  - references.bib
+
+#######################################################################################
+# Launch button settings
+launch_buttons:
+  notebook_interface        : jupyterlab  # The interface interactive links will activate ["classic", "jupyterlab"]
+  binderhub_url             : ""  # The URL of the BinderHub (e.g., https://mybinder.org)
+  jupyterhub_url            : ""  # The URL of the JupyterHub (e.g., https://datahub.berkeley.edu)
+  thebe                     : false  # Add a thebe button to pages (requires the repository to run on Binder)
+  colab_url                 : "https://colab.research.google.com/" # The URL of Google Colab (https://colab.research.google.com)
+  deepnote_url              : "" # The URL of Deepnote (https://deepnote.com)
+
+repository:
+  url                       : https://github.com/uETITC/DataStructure-2024-2/ # The URL to your book's repository
+  path_to_book              : ""  # A path to your book's folder, relative to the repository root.
+  branch                    : main  # Which branch of the repository should be used when creating links
+
+# Add GitHub buttons to your book
+# See https://jupyterbook.org/customize/config.html#add-a-link-to-your-repository
+
+#######################################################################################
+# HTML-specific settings
+html:
+  favicon                   : ""  # A path to a favicon image
+  use_edit_page_button      : false  # Whether to add an "edit this page" button to pages. If `true`, repository information in repository: must be filled in
+  use_repository_button     : true  # Whether to add a link to your repository button
+  use_issues_button         : true  # Whether to add an "open an issue" button
+  use_multitoc_numbering    : true   # Continuous numbering across parts/chapters
+  extra_footer              : "Escuela Tecnológica Instituto Técnico Central (ETITC)"  # Will be displayed underneath the footer.
+  home_page_in_navbar       : true  # Whether to include your home page in the left Navigation Bar
+  # extra_footer: |
+  #   <p>
+  #   ... Add license info here...
+  #   </p>
+  baseurl                   : ""  # The base URL where your book will be hosted. Used for creating image previews and social links. e.g.: https://mypage.com/mybook/
+  analytics:
+    plausible_analytics_domain: ""
+    plausible_analytics_url: "https://plausible.io/js/script.js"
+    google_analytics_id       : ""  # A GA id that can be used to track book views.
+
+  comments:
+    hypothesis              : false
+    utterances              : false
+  announcement              : "" # A banner announcement at the top of the site.
+
+
+#######################################################################################
+# Advanced and power-user settings
+sphinx:
+  extra_extensions          : ["sphinx_design"] # A list of extra extensions to load by Sphinx (added to those already used by JB).
+  #myst_enable_extensions    : ["colon_fence"]
+  local_extensions          :   # A list of local extensions to load by sphinx specified by "name: path" items
+  recursive_update          : false # A boolean indicating whether to overwrite the Sphinx config (true) or recursively update (false)
+  config:
+    language                : en   # include explicitly for accessibility
+    mathjax_path            : https://cdn.jsdelivr.net/npm/mathjax@3/es5/tex-mml-chtml.js  # faster by 60-80%
+    html_extra_path         :  ["Lessons/assets"]
+    html_js_files           : https://cdnjs.cloudflare.com/ajax/libs/require.js/2.3.4/require.min.js
+    bibtex_default_style    : plain 
+    # html_context:
+    #   default_mode: light
+
+parse:
+   myst_url_schemes: [mailto, http, https]
+   myst_enable_extensions:
+    # don't forget to list any other extensions you want enabled,
+    # including those that are enabled by default! See here: https://jupyterbook.org/en/stable/customize/config.html
+    # - amsmath
+    - colon_fence
+    # - deflist
+    - dollarmath
+    - html_admonition
+    - html_image
+    - linkify
+    # - replacements
+    # - smartquotes
+    - substitution
+    - tasklist
