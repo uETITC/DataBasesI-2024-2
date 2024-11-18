@@ -63,12 +63,12 @@ html:
   use_repository_button     : true  # Whether to add a link to your repository button
   use_issues_button         : true  # Whether to add an "open an issue" button
   use_multitoc_numbering    : true   # Continuous numbering across parts/chapters
-  extra_footer              : "Escuela Tecnológica Instituto Técnico Central (ETITC)"  # Will be displayed underneath the footer.
+  #extra_footer              : "Escuela Tecnológica Instituto Técnico Central (ETITC)"  # Will be displayed underneath the footer.
   home_page_in_navbar       : true  # Whether to include your home page in the left Navigation Bar
-  # extra_footer: |
-  #   <p>
-  #   ... Add license info here...
-  #   </p>
+  extra_footer: |
+    <p>
+    <a href="https://www.etitc.edu.co/" target="_blank">Escuela Tecnológica Instituto Técnico Central (ETITC)</a> 
+    </p>
   baseurl                   : ""  # The base URL where your book will be hosted. Used for creating image previews and social links. e.g.: https://mypage.com/mybook/
   analytics:
     plausible_analytics_domain: ""
@@ -111,5 +111,5 @@ parse:
     - linkify
     # - replacements
     # - smartquotes
-    - substitution
-    - tasklist
+    #- substitution
+    #- tasklist

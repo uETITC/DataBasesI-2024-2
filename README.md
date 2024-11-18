@@ -96,8 +96,6 @@ Each solved problem, which has passed all the tests created for the page, can be
 :::
 ::::
 
-
-
 ::::{grid}
 :gutter: 2
 
@@ -117,7 +115,7 @@ Each solved problem, which has passed all the tests created for the page, can be
 ::::
   
 ::::{grid}
-:columns: 6
+:gutter: 2
 
 :::{grid-item-card} [Fish Company](https://github.com/KevinD008/AdministracionPescaderia.git)
   - Kevin Ricardo Díaz Sandoval 
@@ -126,6 +124,8 @@ Each solved problem, which has passed all the tests created for the page, can be
   - Eliezer Alejandro Rojas Beltrán
 :::
 
+:::{grid-item-card} 
+:::
 ::::
 
 (referencias)=
