@@ -32,6 +32,10 @@ parts:
     chapters:
     - file: Lessons/12-SimpleQueries.md
     - file: Lessons/13-MediumQueries.md
+  - caption: "Administración"
+    chapters:
+    - file: Lessons/14-DB-Management.md
+    - file: Lessons/14-UserStories.md
   - caption: "Proyecto"
     chapters:
     - file: Lessons/ProjectGuideLines.md
