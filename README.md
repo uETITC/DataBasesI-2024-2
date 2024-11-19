@@ -1,5 +1,7 @@
 # Bases de Datos I
 
+## Tabla de Contenidos (ToC)
+
 ```{tableofcontents}
 ```
 
@@ -59,7 +61,7 @@ These learning outcomes ensure that students have the technical and analytical s
   - 10 %
 * - Final
   - 02/12/2024
-  - 10 %
+  - 80 %
 ```
 :::
 ::::
@@ -88,7 +90,7 @@ Each solved problem, which has passed all the tests created for the page, can be
 - David Santiago Babativa González.
 :::
 
-:::{grid-item-card} ETITC Restaurant
+:::{grid-item-card} [ETITC Restaurant](https://github.com/DanielTorresMa/Restaurante/tree/main)
 - Juan Lara 
 - Daniel Torres
 - Diego Burgos

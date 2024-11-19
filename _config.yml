@@ -89,7 +89,7 @@ sphinx:
   local_extensions          :   # A list of local extensions to load by sphinx specified by "name: path" items
   recursive_update          : false # A boolean indicating whether to overwrite the Sphinx config (true) or recursively update (false)
   config:
-    language                : en   # include explicitly for accessibility
+    language                : es   # include explicitly for accessibility
     mathjax_path            : https://cdn.jsdelivr.net/npm/mathjax@3/es5/tex-mml-chtml.js  # faster by 60-80%
     html_extra_path         :  ["Lessons/assets"]
     html_js_files           : https://cdnjs.cloudflare.com/ajax/libs/require.js/2.3.4/require.min.js
