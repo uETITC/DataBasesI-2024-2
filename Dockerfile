@@ -9,7 +9,6 @@ ADD . /app
 # Set the default user for the MySQL image
 USER mysql
 
-
 RUN apt-get update
 RUN apt-get install -y python3-pip unzip
 
@@ -22,13 +21,6 @@ RUN ([ -f requirements.txt ] \
 # USER root
 RUN pip install git+git://github.com/Hourout/mysql_kernel.git \
     python -m mysql_kernel.install  --sys-prefix
-# # Download the kernel release
-# RUN curl -L https://github.com/SpencerPark/IJava/releases/download/v1.3.0/ijava-1.3.0.zip > ijava-kernel.zip
-
-# # Unpack and install the kernel
-# RUN unzip ijava-kernel.zip -d ijava-kernel \
-#   && cd ijava-kernel \
-#   && python3 install.py --sys-prefix
 
 # Set environment variables for the new user
 ENV MYSQL_USER=dba
