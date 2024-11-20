@@ -31,7 +31,7 @@ parts:
   - caption: "Consultas"
     chapters:
     - file: Lessons/12-SimpleQueries.md
-    #- file: Lessons/12-SimpleQueries1.ipynb
+    - file: Lessons/12-SimpleQueries1.ipynb
     - file: Lessons/13-MediumQueries.md
   - caption: "Administración"
     chapters:
