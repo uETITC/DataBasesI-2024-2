@@ -22,8 +22,13 @@ COPY requirements.tx[t] .
 RUN ([ -f requirements.txt ] \
       && pip3 install --no-cache-dir -r requirements.txt) \
       || pip3 install --no-cache-dir jupyter jupyterlab \
-      pip3 install git+git://github.com/Hourout/mysql_kernel.git \
-      python3 -m mysql_kernel.install
+      # pip3 install git+git://github.com/Hourout/mysql_kernel.git \
+      # python3 -m mysql_kernel.install
+      pip3 install sqlalchemy pandas ipython-sql \
+      pip3 install jupyterlab_sql \
+      jupyter serverextension enable jupyterlab_sql --py --sys-prefix \
+      jupyter lab build \
+      pip3 install mysql_kernel
 
 # Run the following commands to create the new user and grant them the necessary permissions
 RUN mysql -u root -p -e "CREATE USER '$MYSQL_USER'@'%' IDENTIFIED BY '$MYSQL_PASSWORD';"
