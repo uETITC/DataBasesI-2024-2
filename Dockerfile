@@ -20,7 +20,7 @@ RUN ([ -f requirements.txt ] \
 
 # USER root
 RUN pip install git+git://github.com/Hourout/mysql_kernel.git \
-    python -m mysql_kernel.install  --sys-prefix
+    python3 -m mysql_kernel.install
 
 # Set environment variables for the new user
 ENV MYSQL_USER=dba
