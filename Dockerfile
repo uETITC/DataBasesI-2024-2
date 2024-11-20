@@ -54,4 +54,4 @@ RUN adduser --disabled-password \
 # # Launch the notebook server
 # WORKDIR $HOME
 CMD ["mysqld"]
-CMD ["jupyter", "notebook", "--ip", "0.0.0.0", "--no-browser"]
+CMD ["jupyter", "notebook", "--ip", "0.0.0.0", "--no-browser","--MultiKernelManager.default_kernel_name", "Mysql"]
