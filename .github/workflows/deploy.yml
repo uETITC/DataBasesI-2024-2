@@ -53,11 +53,7 @@ jobs:
         mysql password: $123456789 # Required if "mysql user" exists. The password for the "mysql user"
     - name: Install mysql kernel
       run: |
-        pip install sqlalchemy pandas ipython-sql 
-        pip install jupyterlab_sql 
-        jupyter serverextension enable jupyterlab_sql --py --sys-prefix 
-        jupyter lab build 
-        pip install mysql_kernel 
+        pip install git+git://github.com/Hourout/mysql_kernel.git
         python -m mysql_kernel.install
     # Build the book
     - name: Build the book
