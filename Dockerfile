@@ -12,7 +12,7 @@ USER mysql
 RUN apt-get update \
     && apt-get install -y python3-pip unzip \
     && apt-get -yq install mysql-server \
-    rm -rf /var/lib/apt/lists/*
+    sudo rm -rf /var/lib/apt/lists/*
     #apt-get install telnet iputils-ping  mysql-client -y
 
 # Change mysql to listen on 0.0.0.0
