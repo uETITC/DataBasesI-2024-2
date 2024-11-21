@@ -53,7 +53,7 @@ jobs:
         mysql password: $123456789 # Required if "mysql user" exists. The password for the "mysql user"
     - name: Install mysql kernel
       run: |
-        pip install git+git://github.com/Hourout/mysql_kernel.git
+        pip install mysql_kernel
         python -m mysql_kernel.install
     # Build the book
     - name: Build the book
