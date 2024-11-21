@@ -11,8 +11,8 @@ USER mysql
 
 RUN apt-get update \
     && apt-get install -y python3-pip unzip \
-    && apt-get -yq install mysql-server \
-    sudo rm -rf /var/lib/apt/lists/*
+    && apt-get -yq install mysql-server 
+    #sudo rm -rf /var/lib/apt/lists/*
     #apt-get install telnet iputils-ping  mysql-client -y
 
 # Change mysql to listen on 0.0.0.0
@@ -39,7 +39,8 @@ RUN ([ -f requirements.txt ] \
       pip3 install jupyterlab_sql \
       jupyter serverextension enable jupyterlab_sql --py --sys-prefix \
       jupyter lab build \
-      pip3 install mysql_kernel
+      pip3 install mysql_kernel \
+      python3 -m mysql_kernel.install
 
 # Run the following commands to create the new user and grant them the necessary permissions
 RUN mysql -u root -p -e "CREATE USER '$MYSQL_USER'@'%' IDENTIFIED BY '$MYSQL_PASSWORD';"
