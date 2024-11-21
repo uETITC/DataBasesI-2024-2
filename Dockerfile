@@ -16,7 +16,7 @@ RUN apt-get update \
     #apt-get install telnet iputils-ping  mysql-client -y
 
 # Change mysql to listen on 0.0.0.0
-ADD bind_0.cnf /etc/mysql/conf.d/bind_0.cnf
+# ADD bind_0.cnf /etc/mysql/conf.d/bind_0.cnf
 
 # setup our entry point
 # ADD init.sh /init.sh
