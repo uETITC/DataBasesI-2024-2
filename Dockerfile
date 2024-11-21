@@ -10,8 +10,18 @@ ADD . /app
 USER mysql
 
 RUN apt-get update \
-    apt-get install -y python3-pip unzip 
+    && apt-get install -y python3-pip unzip \
+    && apt-get -yq install mysql-server \
+    rm -rf /var/lib/apt/lists/*
     #apt-get install telnet iputils-ping  mysql-client -y
+
+# Change mysql to listen on 0.0.0.0
+ADD bind_0.cnf /etc/mysql/conf.d/bind_0.cnf
+
+# setup our entry point
+# ADD init.sh /init.sh
+# RUN chmod 755 /*.sh
+# ENTRYPOINT ["/init.sh"]
 
 # Set environment variables for the new user
 ENV MYSQL_USER=dba
