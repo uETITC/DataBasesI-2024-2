@@ -10,12 +10,12 @@ ADD . /app
 USER mysql
 
 RUN apt-get update \
-    apt-get install -y python3-pip unzip \
-    apt-get install telnet iputils-ping  mysql-client -y
+    apt-get install -y python3-pip unzip 
+    #apt-get install telnet iputils-ping  mysql-client -y
 
 # Set environment variables for the new user
 ENV MYSQL_USER=dba
-ENV MYSQL_PASSWORD=123456
+ENV MYSQL_PASSWORD=$123456
 ENV MYSQL_DATABASE=Universidad
 
 # add requirements.txt, written this way to gracefully ignore a missing file
