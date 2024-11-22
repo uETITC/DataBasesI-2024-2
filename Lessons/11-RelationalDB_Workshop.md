@@ -1,5 +1,5 @@
 (relationa-workshop)=
-# Taller: Operaciones de Álgebra Relacional
+# Taller: Operaciones del Álgebra Relacional
 
 En este taller, vamos a implementar y ejemplificar las principales operaciones del álgebra relacional usando MySQL. Se utilizarán varias operaciones como selección, proyección, unión, intersección, diferencia y reunión. El escenario que trabajaremos será una base de datos que simula una **librería** con tres tablas principales: **Libros**, **Clientes**, y **Ventas**.
 

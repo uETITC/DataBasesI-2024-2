@@ -12,6 +12,7 @@ parts:
     - file: Lessons/01-DB-History.md
     - file: Lessons/02-DB-intro.md
     - file: Lessons/03-DB-Arquitecture.md
+    - file: Lessons/03-MySQL-Installation.md
   - caption: "Bases de Datos Relacionales"
     chapters:
     - file: Lessons/05-RelationalDB.md
@@ -19,27 +20,37 @@ parts:
   - caption: "Normalización"
     chapters:
     - file: Lessons/07-Normalization.md
+    - file: Lessons/07-NormalizationExample.md
   - caption: "Diagramas Relacionales"
     chapters:
     - file: Lessons/09-ER_Model.md
+    - file: Lessons/09-EER_Model.md
   - caption: "Programación en MySQL"
     chapters:
     - file: Lessons/04-MySQL_Engines.md 
     - file: Lessons/08-DBLanguages.md
     - file: Lessons/11-RelationalDB_Workshop.md
     - file: Lessons/10-TransactSQL.md
-  - caption: "Consultas"
-    chapters:
-    - file: Lessons/12-SimpleQueries.md
-    - file: Lessons/12-SimpleQueries1.ipynb
-    - file: Lessons/13-MediumQueries.md
+    - file: Lessons/10-Views.md
+    - file: Lessons/10-Procedures.md
+      sections:
+        - file: Lessons/10-Procedure.md
+        - file: Lessons/10-Functions.md
+        - file: Lessons/10-Comaprison.md
+    - file: Lessons/11-Workshops.md
+      sections:
+        - file: Lessons/12-SimpleQueries.md
+        #- file: Lessons/12-SimpleQueries1.ipynb
+        - file: Lessons/13-MediumQueries.md
   - caption: "Administración"
     chapters:
     - file: Lessons/14-DB-Management.md
     - file: Lessons/14-UserStories.md
+    - file: Lessons/15-DataIntegrity.md
   - caption: "Proyecto"
     chapters:
     - file: Lessons/ProjectGuideLines.md
+    - file: Lessons/ProjectTemplate.md
   - caption: "Exámenes" 
     chapters:
     - file: Lessons/Exams/First/First.md

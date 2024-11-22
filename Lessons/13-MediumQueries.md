@@ -1,4 +1,4 @@
-# Taller: Consultas Nivel Medio
+# 2. Operador Join
 
 El presente taller tiene como objetivo fortalecer el dominio de las operaciones relacionales en el lenguaje SQL aplicadas sobre la base de datos `world`, disponible en MySQL. Esta base de datos contiene información detallada de países, ciudades y lenguas en diversas tablas que permiten la manipulación y consulta de datos de forma significativa. En el contexto de bases de datos relacionales, las operaciones relacionales, como la unión, intersección, diferencia y reunión, son fundamentales para realizar consultas complejas que extraigan datos precisos de múltiples tablas y relaciones.
 

@@ -1,4 +1,4 @@
-# Diseño Relacional de BDs
+# Diseño Relacional
 
 ## 1. Definición: Modelo de Datos Relacional
 
