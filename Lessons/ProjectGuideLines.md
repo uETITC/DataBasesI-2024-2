@@ -1,7 +1,7 @@
 # Guía
 
 :::{warning}
-El proyecto debe estar en [GitHub](https://www.github.com) y todos deben participar activamente.
+El proyecto debe estar en [GitHub](https://www.github.com) y todos deben participar activamente. Como se utilizara GitHub para almacenar el proyecto, todos los reportes y entregas que se realicen **deben estar escritas en markdown**.
 :::
 
 ## 1. Objetivo del Proyecto

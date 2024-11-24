@@ -13,7 +13,7 @@ parts:
     - file: Lessons/02-DB-intro.md
     - file: Lessons/03-DB-Arquitecture.md
     - file: Lessons/03-MySQL-Installation.md
-  - caption: "Bases de Datos Relacionales"
+  - caption: "BDs Relacionales"
     chapters:
     - file: Lessons/05-RelationalDB.md
     - file: Lessons/06-RelationalAlgebra.md
@@ -39,8 +39,7 @@ parts:
         - file: Lessons/10-Comaprison.md
     - file: Lessons/11-Workshops.md
       sections:
-        - file: Lessons/12-SimpleQueries.md
-        #- file: Lessons/12-SimpleQueries1.ipynb
+        - file: Lessons/12-SimpleQueries.ipynb
         - file: Lessons/13-MediumQueries.md
   - caption: "Administración"
     chapters:
