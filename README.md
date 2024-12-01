@@ -151,5 +151,5 @@ Each solved problem, which has passed all the tests created for the page, can be
 ```
 
 :::{important}
-You can find all reference's books in the Google Drive folder [References](https://itceduco-my.sharepoint.com/:f:/g/personal/saguileran_itc_edu_co/Eledh23Sd41CnWAnmM3jALkBNHxwDXfiZ4CcmnRTa_ST3Q?e=Z1qPlS).
+You can find all reference's books in the Google Drive folder [References](https://itceduco-my.sharepoint.com/:f:/g/personal/saguileran_itc_edu_co/Eledh23Sd41CnWAnmM3jALkBNHxwDXfiZ4CcmnRTa_ST3Q?e=Z1qPlS), to get acces you must enter with the institutional email.
 :::
