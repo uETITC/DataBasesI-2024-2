@@ -41,7 +41,7 @@ bibtex_bibfiles:
 # Launch button settings
 launch_buttons:
   notebook_interface        : jupyterlab  # The interface interactive links will activate ["classic", "jupyterlab"]
-  binderhub_url             : # "https://mybinder.org/"  # The URL of the BinderHub (e.g., https://mybinder.org)
+  binderhub_url             : "https://mybinder.org/"  # The URL of the BinderHub (e.g., https://mybinder.org)
   jupyterhub_url            : ""  # The URL of the JupyterHub (e.g., https://datahub.berkeley.edu)
   thebe                     : false  # Add a thebe button to pages (requires the repository to run on Binder)
   colab_url                 : # "https://colab.research.google.com/" # The URL of Google Colab (https://colab.research.google.com)
@@ -59,7 +59,7 @@ repository:
 # HTML-specific settings
 html:
   favicon                   : "database.png"  # A path to a favicon image
-  use_edit_page_button      : false  # Whether to add an "edit this page" button to pages. If `true`, repository information in repository: must be filled in
+  use_edit_page_button      : true  # Whether to add an "edit this page" button to pages. If `true`, repository information in repository: must be filled in
   use_repository_button     : true  # Whether to add a link to your repository button
   use_issues_button         : true  # Whether to add an "open an issue" button
   use_multitoc_numbering    : true   # Continuous numbering across parts/chapters
