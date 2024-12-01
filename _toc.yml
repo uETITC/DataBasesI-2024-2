@@ -58,7 +58,7 @@ parts:
         - file: Lessons/Exams/Second/v1.md
         - file: Lessons/Exams/Second/v2.md
         - file: Lessons/Exams/Second/v3.md
-    # - file: Lessons/Exams/Third/Third.md
-    #   sections:
-    #     - file: Lessons/Exams/Third/v1.md
-    #     - file: Lessons/Exams/Third/v2.md
+    - file: Lessons/Exams/Third/Third.md
+      sections:
+        - file: Lessons/Exams/Third/v1.md
+        - file: Lessons/Exams/Third/v2.md
