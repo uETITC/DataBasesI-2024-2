@@ -9,8 +9,9 @@ ADD . /app
 # Set the default user for the MySQL image
 USER mysql
 
-RUN apt update && apt -y upgrade \
-    && apt install -y python3-pip unzip 
+RUN apt update 
+# RUN&& apt -y upgrade \
+RUN apt install -y python3-pip unzip 
 
 # Set environment variables for the new user
 ENV MYSQL_USER=dba\
